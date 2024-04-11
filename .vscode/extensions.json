@@ -1,0 +1,76 @@
+{
+  "recommendations": [
+
+    /* JavaScript --------------------------------------------------------------- */
+    
+    "Tobermory.es6-string-html",
+    "meganrogge.template-string-converter",
+    // "steoates.autoimport",
+    // "NuclleaR.vscode-extension-auto-import",
+
+    /* React -------------------------------------------------------------------- */
+    
+    "dsznajder.es7-react-js-snippets",
+    // "sanfilippopablo.react-component-refactor",
+    // "angryobject.react-pure-to-class-vscode",
+    // "dsbasko.create-component-helper",
+    // "styled-components.vscode-styled-components",
+    // "riazxrazor.html-to-jsx",
+    // "infarkt.css-to-jss",
+    // "zenclabs.previewjs",
+
+    /* Tailwind CSS ------------------------------------------------------------- */
+
+    // "stivo.tailwind-fold",
+    // "austenc.tailwind-docs",
+    // "bourhaouta.tailwindshades",
+    // "bradlc.vscode-tailwindcss",
+    // "Jackardios.vscode-css-to-tailwindcss",
+
+    /* TypeScript --------------------------------------------------------------- */
+
+    // "paulshen.paul-typescript-toolkit",
+    // "loiane.ts-extension-pack",
+    // "quicktype.quicktype",
+
+    /* Node.js ------------------------------------------------------------------ */
+    
+    // "jasonnutter.search-node-modules",
+    // "chrisbibby.hide-node-modules",
+    // "mikestead.dotenv",
+
+    /* Linter, Formatter -------------------------------------------------------- */
+    
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    // "stylelint.vscode-stylelint",
+    // "rebornix.toggle",
+    // "rome.rome",
+
+    /* Test --------------------------------------------------------------------- */
+    
+    "wallabyjs.quokka-vscode",
+    "sketchbuch.vsc-quokka-statusbar",
+    // "Orta.vscode-jest",
+    // "vitest.explorer",
+    // "deinsoftware.vitest-snippets",
+
+    /* Path --------------------------------------------------------------------- */
+    
+    "christian-kohler.path-intellisense",
+    // "christian-kohler.npm-intellisense",
+    
+    /* RESTful Client ----------------------------------------------------------- */
+
+    // "rangav.vscode-thunder-client",
+
+    /* Lens --------------------------------------------------------------------- */
+    
+    // "usernamehw.errorlens",
+    
+    /* AI Assistant ------------------------------------------------------------- */
+
+    // "Codeium.codeium",
+
+  ]
+}
