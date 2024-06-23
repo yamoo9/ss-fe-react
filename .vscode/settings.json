@@ -23,9 +23,11 @@
 
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": false
   },
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.formatOnSave": true
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -96,7 +98,7 @@
   "javascript.suggest.paths": false,
 
   "typescript.autoClosingTags": true,
-  "typescript.format.enable": false,
+  "typescript.format.enable": true,
   "typescript.validate.enable": true,
   "typescript.check.npmIsInstalled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -108,13 +110,13 @@
   "typescript.inlayHints.variableTypes.enabled": true,
   "typescript.disableAutomaticTypeAcquisition": true,
   "typescript.suggest.autoImports": true,
-  "typescript.suggest.paths": true,
+  "typescript.suggest.paths": false,
   
   "path-intellisense.mappings": {
     "@": "${workspaceFolder}/src"
   },
 
-  "autoimport.filesToScan": "**/*.{js,jsx,ts,tsx,css,svg,jpg,jpeg,png}",
+  "autoimport.filesToScan": "**/*.{js,jsx,ts,tsx,css,svg,jpg,jpeg,png,webp}",
   "autoimport.spaceBetweenBraces": true,
   "autoimport.autoComplete": true,
   
