@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "ss-fe-react",
+  "version": "0.1.0",
+  "description": "리액트 라이브러리를 사용해 사용자 인터페이스를 구축하는 방법을 학습합니다."
+}
