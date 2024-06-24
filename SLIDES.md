@@ -15,8 +15,9 @@ paginate: true
 ES Modules 기반 개발 서버 및 빌드 시스템 제공
 
 - [Vite를 사용해야 하는 이유](https://ko.vitejs.dev/guide/why.html)
-- [esbuild](https://esbuild.github.io/)
-- [Rollup](https://rollupjs.org/)
+- [esbuild 번들러](https://esbuild.github.io/)
+- [Rollup 번들러](https://rollupjs.org/)
+- [빌드 도구 순위](https://2023.stateofjs.com/en-US/libraries/build_tools/)
 
 ---
 
@@ -29,7 +30,14 @@ ES Modules 기반 개발 서버 및 빌드 시스템 제공
   <main>
     <h1>리액트 러닝 가이드</h1>
     <p>리액트 라이브러리를 사용해 사용자 인터페이스를 구축하는 방법을 학습합니다.</p>
-    <a class="button" href="https://react.dev" rel="noopener noreferrer" target="_blank">react.dev</a>
+    <a 
+      class="button"
+      href="https://react.dev"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      react.dev
+    </a>
   </main>
 </body>
 ```
@@ -76,9 +84,19 @@ pnpm add vite -D # --save-dev
 # `vite.config.js` 파일 작성 
 
 - [Vite 설정하기](https://ko.vitejs.dev/config/#configure-vite)
+- [공용 옵션](https://ko.vitejs.dev/config/shared-options.html)
+  - [base](https://ko.vitejs.dev/config/shared-options.html#base)
+  - [publicDir](https://ko.vitejs.dev/config/shared-options.html#publicdir)
+  - [css.devSourcemap](https://ko.vitejs.dev/config/shared-options.html#css-devsourcemap)
+- [서버 옵션](https://ko.vitejs.dev/config/server-options.html)
+  - [server.port](https://ko.vitejs.dev/config/server-options.html#server-port)
 
 ---
 
 # `.env.development` 파일 작성 
 
 - [`.env` 파일들](https://ko.vitejs.dev/guide/env-and-mode.html#env-files)
+- [HTML 환경 변수 대체](https://ko.vitejs.dev/guide/env-and-mode.html#html-env-replacement)
+- [설정에서 환경 변수 사용](https://ko.vitejs.dev/config/#using-environment-variables-in-config)
+- [envDir](https://ko.vitejs.dev/config/shared-options.html#envdir)
+- [envPrefix](https://ko.vitejs.dev/config/shared-options.html#envprefix)
