@@ -123,7 +123,6 @@
   "errorLens.enabled": true,
   "errorLens.codeLensEnabled": false,
   "errorLens.fontSize": "14px",
-  "errorLens.exclude": ["**/*.css"],
   "errorLens.gutterIconsEnabled": true,
   "errorLens.gutterIconSet": "emoji",
   "errorLens.gutterIconSize": "16px",
