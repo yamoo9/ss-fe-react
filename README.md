@@ -7,5 +7,5 @@
 학습 저장소를 복제하는 명령어를 복사하여 터미널에 붙여넣고 실행합니다.
 
 ```sh
-npx degit yamoo9/ss-fe-react#L01 01-vite-scaffolding
+npx degit yamoo9/ss-fe-react#L02 02-declative-programming
 ```
