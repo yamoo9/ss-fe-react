@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Node.js 런타임 환경 테스트",
+      "cwd": "${workspaceFolder}",
+      "program": "${file}",
+      "skipFiles": ["<node_internals>/**"],
+    }
+  ]
+}
