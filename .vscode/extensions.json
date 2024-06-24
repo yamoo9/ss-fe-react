@@ -1,0 +1,64 @@
+{
+  "recommendations": [
+
+    /* Node.js ------------------------------------------------------------------ */
+    
+    // "christian-kohler.path-intellisense",
+    // "christian-kohler.npm-intellisense",    
+    // "jasonnutter.search-node-modules",
+    // "chrisbibby.hide-node-modules",
+    // "mikestead.dotenv",
+
+    /* JavaScript --------------------------------------------------------------- */
+    
+    // "Tobermory.es6-string-html",
+    // "meganrogge.template-string-converter",
+    // "NuclleaR.vscode-extension-auto-import",
+
+    /* Linter, Formatter -------------------------------------------------------- */
+    
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    // "rebornix.toggle",
+
+    /* Test --------------------------------------------------------------------- */
+    
+    "wallabyjs.quokka-vscode",
+    "sketchbuch.vsc-quokka-statusbar",
+    // "deinsoftware.vitest-snippets",
+    // "vitest.explorer",
+
+    /* React -------------------------------------------------------------------- */
+    
+    // "dsznajder.es7-react-js-snippets",
+    // "riazxrazor.html-to-jsx",
+    // "infarkt.css-to-jss",
+
+    /* TypeScript --------------------------------------------------------------- */
+
+    // "paulshen.paul-typescript-toolkit",
+    // "loiane.ts-extension-pack",
+    // "quicktype.quicktype",
+
+    /* Tailwind CSS ------------------------------------------------------------- */
+
+    // "stivo.tailwind-fold",
+    // "austenc.tailwind-docs",
+    // "bourhaouta.tailwindshades",
+    // "bradlc.vscode-tailwindcss",
+    // "Jackardios.vscode-css-to-tailwindcss",
+    
+    /* RESTful Client ----------------------------------------------------------- */
+
+    // "rangav.vscode-thunder-client",
+
+    /* Lens --------------------------------------------------------------------- */
+    
+    "usernamehw.errorlens",
+    
+    /* AI Assistant ------------------------------------------------------------- */
+
+    // "Codeium.codeium",
+
+  ]
+}
