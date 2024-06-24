@@ -19,7 +19,7 @@ header: "Front-end Web − Essentials"
 - [노드](https://bit.ly/3RwfXys 'node'), [트리](https://bit.ly/3xocXgY 'tree') 데이터 시각화
 - 정보 찾기, 추가, 변경, 삭제 등
 
-![h:240](./assets/html-markup.png) ![h:240](./assets/tree-structure.png)
+![h:240](./.slides/assets/html-markup.png) ![h:240](./.slides/assets/tree-structure.png)
 
 ---
 
@@ -32,7 +32,7 @@ header: "Front-end Web − Essentials"
 - [DOM](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model 'Document Object Model')은 HTML 문서 분석 후, 사용자에 의해 변경되는 기능 제공
 - HTML은 해석된 후 본질적으로 폐기 됨
 
-![h:240](./assets/html-dom-render.png)
+![h:240](./.slides/assets/html-dom-render.png)
 
 ---
 
@@ -41,7 +41,7 @@ header: "Front-end Web − Essentials"
 DOM 조작은 웹 애플리케이션 작동의 기본으로 [Web API](https://developer.mozilla.org/ko/docs/Web/API)를 사용합니다.  
 Web API는 브라우저와 상호작용하는 방법(함수, 객체, URL 등)을 제공합니다.
 
-![h:220](./assets/dom-manipulation.png)
+![h:220](./.slides/assets/dom-manipulation.png)
 
 ##### 실습
 
