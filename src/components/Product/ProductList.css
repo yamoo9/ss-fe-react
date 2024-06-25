@@ -1,0 +1,23 @@
+@layer components {
+  .ProductList {
+    list-style: none;
+    padding-inline-start: 0;
+    margin: 20px auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    inline-size: clamp(100px, 80vw, 1440px);
+
+    @media (min-width: 560px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 960px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (min-width: 1280px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
