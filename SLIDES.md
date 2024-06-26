@@ -20,9 +20,29 @@ header: "Front-end Web − Essentials"
 pnpm add vitest -D
 ```
 
+### package.json
+
+```json
+{
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  }
+}
+```
+
 ---
 
-# 테스트 작성
+# VS Code 확장 설치
+
+Vitest 및 Vitest 스니펫 확장을 설치합니다.
+
+- [Vitest](https://marketplace.visualstudio.com/items?itemName=vitest.explorer)
+- [VitesVitest Snippetst](https://marketplace.visualstudio.com/items?itemName=deinsoftware.vitest-snippets)
+
+---
+
+# 유틸리티 함수 테스트 작성
 
 유틸리티 함수 테스트 코드를 작성합니다. ([참고](https://vitest.dev/guide/#writing-tests))
 
@@ -49,9 +69,40 @@ React 컴포넌트 테스트 환경을 구성합니다. ([참고](https://euid.n
 
 # 컴포넌트 테스트
 
-React 컴포넌트 테스트 코드를 작성합니다.
+React 컴포넌트 테스트 코드를 작성합니다. ([참고](https://euid.notion.site/Testing-Library-c5948112cc3349d294a3ec0320778b36?pvs=4))
+
+- 컴포넌트 렌더(render)
+- 컴포넌트 렌더 후 DOM 요소 선택
+- 렌더 결과 및 사용자 인터랙션 테스트
+- 구현 방법이 아닌, 작동(앱이 수행하는 작업) 테스트
 
 ##### 실습
 
 ☑ Avatar 컴포넌트 테스트
 ☑ AvatarList 컴포넌트 테스트
+
+---
+
+## 쿼리
+
+- getBy
+- queryBy
+- findBy
+
+## 쿼리 베리에이션
+
+- ByRole
+- ByText
+- ByPlaceholderText
+- ByTestId
+
+---
+
+## 매처 함수
+
+- toBeInTheDocument()
+- toBeEmptyDOMElement()
+- toHaveTextContent()
+- toHaveAttribute()
+- toBeDisabled()
+- toBeChecked()
