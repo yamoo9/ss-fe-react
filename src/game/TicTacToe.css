@@ -1,38 +1,15 @@
-@layer base {
-  body {
-    margin: 40px;
-    background: #f4f4f4;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
-    font-weight: 400;
-  }
-
-  button {
-    cursor: pointer;
-    line-height: 1;
-  }
-
-  button:disabled {
-    cursor: not-allowed;
-  }
-}
-
 @layer components {
   .TicTacToe {
+    --primary-color: #1b1a19;
+    --secondary-color: #f7f3ed;
+    --square-size: 60px;
+    --square-border: 3px;
+    --board-size: calc((var(--square-size) * 3) + var(--square-border) * 2);
+
     display: flex;
     justify-content: center;
     gap: 60px;
-
-    --primary-color: #1b1a19;
-    --secondary-color: #f7f3ed;
-    --square-size: 80px;
+    margin-block-start: 20px;
   }
 
   .Board {
@@ -46,17 +23,15 @@
   }
 
   .Squares {
-    --board-size: calc(var(--square-size) * 3);
-    width: var(--board-size);
-    height: var(--board-size);
-
-    border: 3px solid var(--primary-color);
     display: flex;
     flex-flow: row wrap;
+    inline-size: var(--board-size);
+    height: var(--board-size);
+    border: var(--square-border) solid var(--primary-color);
   }
 
   .Square {
-    width: var(--square-size);
+    inline-size: var(--square-size);
     height: var(--square-size);
     display: flex;
     justify-content: center;
