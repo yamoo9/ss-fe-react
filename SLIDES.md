@@ -81,3 +81,4 @@ JavaScript의 기본 구문을 사용해 동일하게 조건부 렌더링 할 �
 
 ☑ 아바타(Avatar) 리스트 렌더링 ([참고](https://gist.github.com/yamoo9/e2005a17a8affd51b9fbd96934db7768))
 ☑ 상품(Product) 리스트 렌더링 ([참고](https://gist.github.com/yamoo9/d94f140320402b63d99994436a75093d))
+☑ 상품(Product) 스타일링 ([참고](https://gist.github.com/yamoo9/045058718eb4e49875270b7e63ac176b))
