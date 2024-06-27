@@ -1,0 +1,35 @@
+@layer components {
+  .AppNavigation {
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff3;
+    backdrop-filter: blur(4px);
+    border-block-end: 1px solid #fff9;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 20px;
+
+    display: flex;
+    gap: 8px;
+
+    button {
+      border: 0;
+      padding: 8px 12px;
+      border-radius: 6px;
+      background-color: #0b0c1f;
+      color: #fff;
+
+      &.active {
+        background-color: #3d47d4;
+      }
+    }
+
+    select {
+      background: #000;
+      color: #fff;
+      padding: 4px;
+      border-radius: 6px;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+@layer components {
+
+  .App {
+    padding-block-start: 60px;
+  }
+
+}

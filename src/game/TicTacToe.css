@@ -1,0 +1,75 @@
+@layer components {
+  .TicTacToe {
+    --primary-color: #1b1a19;
+    --secondary-color: #f7f3ed;
+    --square-size: 60px;
+    --square-border: 3px;
+    --board-size: calc((var(--square-size) * 3) + var(--square-border) * 2);
+
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-block-start: 20px;
+  }
+
+  .Board {
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+  }
+
+  .Status {
+    font-size: 20px;
+  }
+
+  .Squares {
+    display: flex;
+    flex-flow: row wrap;
+    inline-size: var(--board-size);
+    height: var(--board-size);
+    border: var(--square-border) solid var(--primary-color);
+  }
+
+  .Square {
+    inline-size: var(--square-size);
+    height: var(--square-size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 0.1px solid var(--primary-color);
+    padding: 0;
+    color: var(--primary-color);
+    font-size: 20px;
+
+    &.winner {
+      background-color: #fff3bbbb;
+    }
+  }
+
+  .History {
+    margin-top: 38px;
+    min-width: 100px;
+  }
+
+  .History ol {
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
+  }
+
+
+  .History li {
+    list-style-type: decimal-leading-zero;
+  }
+
+  .History button {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border: 0;
+    border-radius: 4px;
+    padding: 0.4em 0.8em;
+  }
+}

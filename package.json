@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "ss-fe-react",
+  "version": "0.1.0",
+  "description": "리액트 라이브러리를 사용해 사용자 인터페이스를 구축하는 방법을 학습합니다.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "6.4.6",
+    "@testing-library/react": "16.0.0",
+    "@testing-library/user-event": "14.5.2",
+    "@types/node": "20.14.8",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "4.3.1",
+    "@vitest/ui": "1.6.0",
+    "eslint": "9.5.0",
+    "eslint-plugin-react": "7.34.3",
+    "jsdom": "24.1.0",
+    "vite": "5.3.1",
+    "vitest": "1.6.0"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}

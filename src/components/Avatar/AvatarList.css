@@ -1,0 +1,13 @@
+@layer components {
+  .AvatarList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 20px;
+    max-inline-size: clamp(320px, 50vw, 800px);
+
+    list-style: none;
+    padding-inline-start: 0;
+    margin: 20px auto;
+  }
+}

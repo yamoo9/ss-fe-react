@@ -1,0 +1,30 @@
+@layer components {
+  .Avatar {
+    --size: 16px;
+    --offline-color: #dbdbdb;
+    --online-color: #4BFE88;
+    --color: var(--offline-color);
+    --stroke-color: #fff;
+
+    display: inline-flex;
+    position: relative;
+    margin: 0;
+
+    img {
+      border-radius: 50%;
+    }
+
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: 1;
+      block-size: var(--size);
+      inline-size: var(--size);
+      background-color: var(--color);
+      border: 1px solid var(--stroke-color);
+      border-radius: 50%;
+      filter: drop-shadow(0px 0px 2px rgba(114, 119, 124, 0.20));
+    }
+  }
+}

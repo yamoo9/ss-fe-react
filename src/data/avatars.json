@@ -1,0 +1,58 @@
+[
+  {
+    "id": "avatar-1",
+    "filename": "man-01",
+    "ext": "jpg",
+    "name": "박성준",
+    "isOnline": false
+  },
+  {
+    "id": "avatar-2",
+    "filename": "man-02",
+    "ext": "jpg",
+    "name": "하성태",
+    "isOnline": true
+  },
+  {
+    "id": "avatar-3",
+    "filename": "man-03",
+    "ext": "jpg",
+    "name": "김병조",
+    "isOnline": false
+  },
+  {
+    "id": "avatar-4",
+    "filename": "man-04",
+    "ext": "jpg",
+    "name": "이주성",
+    "isOnline": true
+  },
+  {
+    "id": "avatar-5",
+    "filename": "woman-01",
+    "ext": "jpg",
+    "name": "박애경",
+    "isOnline": false
+  },
+  {
+    "id": "avatar-6",
+    "filename": "woman-02",
+    "ext": "jpg",
+    "name": "엄성연",
+    "isOnline": false
+  },
+  {
+    "id": "avatar-7",
+    "filename": "woman-03",
+    "ext": "jpg",
+    "name": "왕소아",
+    "isOnline": true
+  },
+  {
+    "id": "avatar-8",
+    "filename": "woman-04",
+    "ext": "jpg",
+    "name": "하소영",
+    "isOnline": true
+  }
+]
